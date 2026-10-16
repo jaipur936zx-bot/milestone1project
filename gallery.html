@@ -17,59 +17,76 @@
 
 <body class="bg-black text-gray-200">
 
-    <header class="sticky top-0 z-50 border-b border-yellow-400/10 bg-black">
+<header class="sticky top-0 z-50 border-b border-yellow-400/20 bg-black">
 
-        <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
 
-            <a href="index.html" class="text-2xl font-bold text-yellow-400">
-                <i class="fa-solid fa-leaf mr-2 text-yellow-400"></i>
-                Verde<span class="text-yellow-400">.</span>
+        <a href="index.html" class="flex items-center gap-3 text-2xl font-bold text-white ">
+            <img src="img/logoo.png" alt="The Golden Scissor Logo" class="h-10 w-10 object-contain rounded-full">
+            Golden Scissor<span class="text-yellow-400 "></span>
+        </a>
+
+        <nav class="hidden items-center gap-8 md:flex">
+            <a href="index.html" class="font-medium text-yellow-400 transition hover:text-yellow-300">
+                Home
             </a>
-
-            <nav class="hidden items-center gap-8 md:flex">
-
-                <a href="index.html"
-                    class="font-medium transition hover:text-yellow-400">
-                    Home
-                </a>
-
-                <a href="service.html"
-                    class="font-medium transition hover:text-yellow-400">
-                    Services
-                </a>
-
-                <a href="gallery.html"
-                    class="font-medium text-yellow-400">
-                    Gallery
-                </a>
-
-                <a href="about.html"
-                    class="font-medium transition hover:text-yellow-400">
-                    About
-                </a>
-
-                <a href="contact.html"
-                    class="font-medium transition hover:text-yellow-400">
-                    Contact
-                </a>
-
-            </nav>
-
-            <a href="contact.html"
-                class="hidden rounded-full bg-yellow-400 px-6 py-3 font-medium text-black transition hover:bg-yellow-300 md:block">
-                Book Appointment
+            <a href="service.html" class="font-medium text-gray-300 transition hover:text-yellow-400">
+                Services
             </a>
+            <a href="gallery.html" class="font-medium text-gray-300 transition hover:text-yellow-400">
+                Gallery
+            </a>
+            <a href="about.html" class="font-medium text-gray-300 transition hover:text-yellow-400">
+                About
+            </a>
+            <a href="contact.html" class="font-medium text-gray-300 transition hover:text-yellow-400">
+                Contact
+            </a>
+        </nav>
 
-            <a href="#mobile-menu"
-                class="text-xl text-yellow-400 md:hidden"
-                aria-label="Open navigation menu">
+        <a href="contact.html"
+            class="hidden rounded-full bg-yellow-400 px-6 py-3 font-medium text-black transition hover:bg-yellow-300 md:block">
+            Book Appointment
+        </a>
+
+        <details class="relative md:hidden">
+
+            <summary class="cursor-pointer list-none text-xl text-yellow-400">
                 <i class="fa-solid fa-bars"></i>
-            </a>
+            </summary>
 
-        </div>
+            <div class="absolute right-0 top-12 w-64 rounded-2xl border border-yellow-400/20 bg-gray-950 p-6 shadow-xl">
 
-    </header>
+                <nav class="flex flex-col gap-5">
 
+                    <a href="index.html" class="font-medium text-yellow-400">
+                        Home
+                    </a>
+                    <a href="service.html" class="font-medium text-gray-300 transition hover:text-yellow-400">
+                        Services
+                    </a>
+                    <a href="gallery.html" class="font-medium text-gray-300 transition hover:text-yellow-400">
+                        Gallery
+                    </a>
+                    <a href="about.html" class="font-medium text-gray-300 transition hover:text-yellow-400">
+                        About
+                    </a>
+                    <a href="contact.html" class="font-medium text-gray-300 transition hover:text-yellow-400">
+                        Contact
+                    </a>
+
+                    <a href="contact.html"
+                        class="rounded-full bg-yellow-400 px-5 py-3 text-center font-medium text-black transition hover:bg-yellow-300">
+                        Book Appointment
+                    </a>
+
+                </nav>
+            </div>
+        </details>
+
+    </div>
+
+</header>
     <main>
 
         <section class="mx-auto max-w-7xl px-6 py-20 text-center md:py-24">
