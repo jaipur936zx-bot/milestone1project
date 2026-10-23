@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Verde Salon | Gallery</title>
+    <title>Golden Scissor Salon | Gallery</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -27,7 +27,7 @@
         </a>
 
         <nav class="hidden items-center gap-8 md:flex">
-            <a href="index.html" class="font-medium text-yellow-400 transition hover:text-yellow-300">
+            <a href="index.html" class="font-medium transition hover:text-yellow-300">
                 Home
             </a>
             <a href="service.html" class="font-medium text-gray-300 transition hover:text-yellow-400">
@@ -89,23 +89,38 @@
 </header>
     <main>
 
-        <section class="mx-auto max-w-7xl px-6 py-20 text-center md:py-24">
+   <section class="relative mx-auto max-w-7xl overflow-hidden px-6 py-20 text-center md:py-24">
 
-            <span
-                class="inline-block rounded-full bg-yellow-400/10 px-5 py-2 text-sm font-semibold uppercase tracking-wider text-yellow-400">
-                Our Gallery
-            </span>
 
-            <h1 class="mx-auto mt-6 max-w-4xl text-5xl font-bold leading-tight text-yellow-400 md:text-6xl">
-                A glimpse into the Verde experience.
-            </h1>
+    <img
+        src="img/gallery.jpeg"
+        alt="Salon background"
+        class="absolute inset-0 h-full w-full object-cover"
+    >
 
-            <p class="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-400">
-                Explore our salon atmosphere, beautiful transformations
-                and the details that make every appointment special.
-            </p>
 
-        </section>
+    <div class="absolute inset-0 bg-black/70"></div>
+
+    
+    <div class="relative z-10">
+
+        <span
+            class="inline-block rounded-full bg-yellow-400/10 px-5 py-2 text-sm font-semibold uppercase tracking-wider text-yellow-400">
+            Our Gallery
+        </span>
+
+        <h1 class="mx-auto mt-6 max-w-4xl text-5xl font-bold leading-tight text-yellow-400 md:text-6xl">
+            A glimpse into the Verde experience.
+        </h1>
+
+        <p class="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-200">
+            Explore our salon atmosphere, beautiful transformations
+            and the details that make every appointment special.
+        </p>
+
+    </div>
+
+</section>
 
         <section class="mx-auto max-w-7xl px-6 pb-20">
 
@@ -348,44 +363,36 @@
 
     </main>
 
-    <footer class="bg-black text-white">
+   <footer class="bg-black text-white">
 
         <div class="mx-auto grid max-w-7xl gap-10 px-6 py-14 md:grid-cols-4">
 
             <div>
 
                 <a href="index.html" class="text-2xl font-bold">
-                    <i class="fa-solid fa-leaf mr-2 text-yellow-400"></i>
-                    Verde<span class="text-yellow-400">.</span>
+
+                    Golden Scissor<span class="text-yellow-400">.</span>
                 </a>
 
-                <p class="mt-5 leading-7 text-gray-400">
+                <p class="mt-5 leading-7 text-gray-300">
                     A modern beauty salon created for confidence,
                     relaxation and personal style.
                 </p>
 
                 <div class="mt-6 flex gap-3">
 
-                    <a href="https://www.instagram.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
                         aria-label="Instagram"
                         class="flex h-10 w-10 items-center justify-center rounded-full bg-gray-900 transition hover:bg-yellow-400 hover:text-black">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
 
-                    <a href="https://www.facebook.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label="Facebook"
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"
                         class="flex h-10 w-10 items-center justify-center rounded-full bg-gray-900 transition hover:bg-yellow-400 hover:text-black">
                         <i class="fa-brands fa-facebook-f"></i>
                     </a>
 
-                    <a href="https://wa.me/919876543210"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label="WhatsApp"
+                    <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"
                         class="flex h-10 w-10 items-center justify-center rounded-full bg-gray-900 transition hover:bg-yellow-400 hover:text-black">
                         <i class="fa-brands fa-whatsapp"></i>
                     </a>
@@ -400,30 +407,25 @@
                     Quick Links
                 </h3>
 
-                <div class="mt-5 space-y-3 text-gray-400">
+                <div class="mt-5 space-y-3 text-gray-300">
 
-                    <a href="index.html"
-                        class="block transition hover:text-yellow-400">
+                    <a href="index.html" class="block transition hover:text-yellow-400">
                         Home
                     </a>
 
-                    <a href="service.html"
-                        class="block transition hover:text-yellow-400">
+                    <a href="service.html" class="block transition hover:text-yellow-400">
                         Services
                     </a>
 
-                    <a href="gallery.html"
-                        class="block transition hover:text-yellow-400">
+                    <a href="gallery.html" class="block transition hover:text-yellow-400">
                         Gallery
                     </a>
 
-                    <a href="about.html"
-                        class="block transition hover:text-yellow-400">
+                    <a href="about.html" class="block transition hover:text-yellow-400">
                         About Us
                     </a>
 
-                    <a href="contact.html"
-                        class="block transition hover:text-yellow-400">
+                    <a href="contact.html" class="block transition hover:text-yellow-400">
                         Contact
                     </a>
 
@@ -437,27 +439,30 @@
                     Contact
                 </h3>
 
-                <div class="mt-5 space-y-4 text-gray-400">
+                <div class="mt-5 space-y-4 text-gray-300">
 
-                    <a href="https://www.google.com/maps/search/?api=1&query=21+Green+Avenue+Jaipur"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="block transition hover:text-yellow-400">
+                    <p>
                         <i class="fa-solid fa-location-dot mr-3 text-yellow-400"></i>
                         21 Green Avenue, Jaipur
-                    </a>
+                    </p>
 
-                    <a href="tel:+919876543210"
-                        class="block transition hover:text-yellow-400">
+                    <p>
                         <i class="fa-solid fa-phone mr-3 text-yellow-400"></i>
-                        +91 98765 43210
-                    </a>
 
-                    <a href="mailto:hello@verdesalon.in"
-                        class="block transition hover:text-yellow-400">
+                        <a href="tel:+918708988156" class="transition hover:text-yellow-400">
+                            +91 8708988156
+                        </a>
+
+                    </p>
+
+                    <p>
                         <i class="fa-solid fa-envelope mr-3 text-yellow-400"></i>
-                        hello@verdesalon.in
-                    </a>
+
+                        <a href="mailto:hello@goldenscissorsalon.in" class="transition hover:text-yellow-400">
+                            hello@goldenscissorsalon.in
+                        </a>
+
+                    </p>
 
                 </div>
 
@@ -469,10 +474,11 @@
                     Opening Hours
                 </h3>
 
-                <div class="mt-5 space-y-3 text-gray-400">
+                <div class="mt-5 space-y-3 text-gray-300">
 
                     <p>
                         Monday - Friday
+
                         <span class="block text-white">
                             10:00 AM - 8:00 PM
                         </span>
@@ -480,6 +486,7 @@
 
                     <p>
                         Saturday
+
                         <span class="block text-white">
                             10:00 AM - 9:00 PM
                         </span>
@@ -487,6 +494,7 @@
 
                     <p>
                         Sunday
+
                         <span class="block text-white">
                             11:00 AM - 5:00 PM
                         </span>
@@ -498,15 +506,16 @@
 
         </div>
 
-        <div class="border-t border-yellow-400/10">
+        <div class="border-t border-yellow-400/20">
 
             <div class="mx-auto max-w-7xl px-6 py-5 text-center text-sm text-gray-400">
-                © 2026 Verde Salon. All rights reserved.
+                © 2026 Golden Scissor Salon. All rights reserved.
             </div>
 
         </div>
 
     </footer>
+
 
 </body>
 
